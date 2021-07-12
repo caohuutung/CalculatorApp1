@@ -163,12 +163,12 @@
                 android:layout_weight="1"
                 android:text="CE"
                 android:textStyle="bold"
-                android:textSize="22dp"
+                android:textSize="20dp"
                 android:textColor="@color/black"
                 app:backgroundTint="#F4A916"></Button>
 
             <Button
-                android:id="@+id/btnOnC"
+                android:id="@+id/btnONC"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_margin="2dp"
@@ -416,7 +416,7 @@
                 app:backgroundTint="#434343"></ImageView>
 
             <Button
-                android:id="@+id/btnDiv"
+                android:id="@+id/btnChia"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_margin="2dp"
@@ -426,7 +426,7 @@
                 android:textStyle="bold"
                 app:backgroundTint="#777777"></Button>
             <Button
-                android:id="@+id/btnMul"
+                android:id="@+id/btnNhan"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_margin="2dp"
@@ -437,7 +437,7 @@
                 android:textColor="@color/white"
                 app:backgroundTint="#777777"></Button>
             <Button
-                android:id="@+id/btnSub"
+                android:id="@+id/btnTru"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_margin="2dp"
@@ -448,7 +448,7 @@
                 android:textColor="@color/white"
                 app:backgroundTint="#777777"></Button>
             <Button
-                android:id="@+id/btnSum"
+                android:id="@+id/btnCong"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_margin="2dp"

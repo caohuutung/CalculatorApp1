@@ -27,12 +27,12 @@ class MainActivity : AppCompatActivity() {
 
         // Xử lý các phím chức năng
         btnCE.setOnClickListener { appendVal("", true) }
-        btnDiv.setOnClickListener { appendVal(" / ", false) }
-        btnMul.setOnClickListener { appendVal(" * ", false) }
-        btnSub.setOnClickListener { appendVal(" - ", false) }
-        btnSum.setOnClickListener { appendVal(" + ", false) }
+        btnChia.setOnClickListener { appendVal(" / ", false) }
+        btnNhan.setOnClickListener { appendVal(" * ", false) }
+        btnTru.setOnClickListener { appendVal(" - ", false) }
+        btnCong.setOnClickListener { appendVal(" + ", false) }
 
-        btnOnC.setOnClickListener {
+        btnONC.setOnClickListener {
             tvExpression.text = tvExpression.text.toString().subSequence(0, tvExpression.text.length - 1)
         }
 
